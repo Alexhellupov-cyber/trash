@@ -4,7 +4,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #070e5c;
     cursor: pointer;
 }
 .button1{
@@ -13,7 +13,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #044b0b;
     cursor: pointer;
 }
 .text{
@@ -27,11 +27,11 @@
 .link{
 
     text-decoration:none;
-    color: red;
+    color: #070e5c;
 }
 .link1{
     text-decoration:none;
-    color: red;
+    color: #044b0b;
 }
 
 .body{
