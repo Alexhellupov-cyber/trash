@@ -1,0 +1,155 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="EN">
+<!-- Mirrored from www.w3.org/2001/tag/doc/namespaceState.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Mar 2021 13:29:20 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>The Disposition of Names in an XML Namespace</title><style type="text/css">
+code           { font-family: monospace; }
+
+div.constraint,
+div.issue,
+div.note,
+div.notice     { margin-left: 2em; }
+
+ol.enumar      { list-style-type: decimal; }
+ol.enumla      { list-style-type: lower-alpha; }
+ol.enumlr      { list-style-type: lower-roman; }
+ol.enumua      { list-style-type: upper-alpha; }
+ol.enumur      { list-style-type: upper-roman; }
+
+
+div.exampleInner pre { margin-left: 1em;
+                       margin-top: 0em; margin-bottom: 0em}
+div.exampleOuter {border: 4px double gray;
+                  margin: 0em; padding: 0em}
+div.exampleInner { background-color: #d5dee3;
+                   border-top-width: 4px;
+                   border-top-style: double;
+                   border-top-color: #d3d3d3;
+                   border-bottom-width: 4px;
+                   border-bottom-style: double;
+                   border-bottom-color: #d3d3d3;
+                   padding: 4px; margin: 0em }
+div.exampleWrapper { margin: 4px }
+div.exampleHeader { font-weight: bold;
+                    margin: 4px}
+
+p { clear: both }
+
+.prefix { float:left; width: 15%; background: yellow; color: black;
+border: solid black thin; padding: .1em; margin-left: 2%;
+margin-right: 2%;}
+
+.principle, .constraint, .property, .practice { color: black; border:
+solid black thin; padding: .1em; margin-left: 5%; margin-right: 5%; clear: none}
+
+.principle  { background: #f7ebd7 }
+.constraint { background: #becece }
+.property   { background: #f7ebd7 }
+.practice   { background: #dfffff }
+
+pre em      { font-style: italic;
+              font-weight: bold;
+            }
+</style><link rel="stylesheet" type="text/css" href="http://www.w3.org/StyleSheets/TR/base.css"></head><body><div class="head"><p><a href="../../../index.html"><img src="../../../Icons/w3c_home.svg" alt="W3C" height="48" width="72"></a></p>
+<h1><a name="title" id="title"></a>The Disposition of Names in an XML Namespace</h1>
+<h2><a name="w3c-doctype" id="w3c-doctype"></a>TAG Finding 9 January 2006</h2><dl><dt>This version:</dt><dd>
+<a href="http://www.w3.org/2001/tag/doc/namespaceState-2006-01-09.html">http://www.w3.org/2001/tag/doc/namespaceState-2006-01-09</a>
+</dd><dt>Latest version:</dt><dd>
+<a href="namespaceState.html">http://www.w3.org/2001/tag/doc/namespaceState</a>
+</dd><dt>Previous version:</dt><dd>
+<a href="http://www.w3.org/2001/tag/doc/namespaceState-2005-12-16.html">http://www.w3.org/2001/tag/doc/namespaceState-2005-12-16</a>
+</dd><dt>Editor:</dt><dd>Norman Walsh, Sun Microsystems, Inc. <a href="mailto:Norman.Walsh@Sun.COM">&lt;Norman.Walsh@Sun.COM&gt;</a></dd></dl><p>This document is also available in these non-normative formats: <a href="http://www.w3.org/2001/tag/doc/namespaceState-2006-01-09.xml">XML</a>.</p><p class="copyright"><a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>&nbsp;&copy;&nbsp;2006&nbsp;<a href="../../../index.html"><acronym title="World Wide Web Consortium">W3C</acronym></a><sup>&reg;</sup> (<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>, <a href="http://www.ercim.org/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>, <a href="http://www.keio.ac.jp/">Keio</a>), All Rights Reserved. W3C <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="http://www.w3.org/Consortium/Legal/copyright-documents">document use</a> rules apply.</p></div><hr><div>
+<h2><a name="abstract" id="abstract"></a>Abstract</h2><p>This Finding addresses the question of whether or not adding new
+names to a (published) namespace is a sound practice.</p></div><div>
+<h2><a name="status" id="status"></a>Status of this Document</h2><p>This document has been produced by the
+<a href="http://www.w3.org/2001/tag/">W3C Technical Architecture Group (TAG)</a>.
+This finding addresses TAG issue
+<a href="http://www.w3.org/2001/tag/ilist#nameSpaceState-48">nameSpaceState-48</a>.
+The TAG approved this finding at its
+<a href="http://www.w3.org/2001/tag/2006/01/03-minutes.html#action01">3&nbsp;January&nbsp;2006 teleconference</a>.
+<a href="http://www.w3.org/2001/tag/findings">Additional TAG findings</a>,
+both approved and in draft state, may also
+be available.</p><p>Please send comments on this finding to the publicly archived TAG
+mailing list www-tag@w3.org
+(<a href="http://lists.w3.org/Archives/Public/www-tag/">archive</a>).
+</p><p>The terms <strong>MUST</strong>, <strong>SHOULD</strong>, and
+<strong>SHOULD NOT</strong> are used in this document
+in accordance with <a href="#rfc2119">[RFC 2119]</a>.</p><p>Please send comments on this finding to the publicly archived TAG
+mailing list <a href="mailto:www-tag@w3.org">www-tag@w3.org</a>
+(<a href="http://lists.w3.org/Archives/Public/www-tag/">archive</a>).</p></div><div class="toc">
+<h2><a name="contents" id="contents"></a>Table of Contents</h2><p class="toc">1 <a href="#preface">Preface</a><br>
+2 <a href="#namespacedef">Namespace Definitions</a><br>
+3 <a href="#references">References</a><br>
+</p></div><hr><div class="body"><div class="div1">
+<h2><a name="preface" id="preface"></a>1 Preface</h2><p>Namespaces are a mechanism for managing names in a distributed way that
+greatly reduces the likelihood that two independent parties will create
+the same name for different purposes.</p><p>An XML namespace has a namespace name (a URI) and a set of local names
+(<a href="../../../TR/REC-xml-names/index.html#NT-NCName">NCName</a>s as
+defined in <a href="#xml-names">[XML Namespaces]</a>). Using a URI leverages the
+well-understood <a href="http://www.w3.org/TR/webarch/#uri-assignment">URI
+allocation</a> mechanisms of <a href="#webarch">[WebArch Vol 1]</a>.
+<a href="#xml-names">[XML Namespaces]</a> defines a syntactic shorthand for the combination
+of a namespace name and a local name: the qualified name, or &#8220;QName&#8221;.
+(Note that languages which use QNames as identifiers 
+<a href="http://www.w3.org/TR/webarch/#qname-mapping">are required</a>
+to provide a mapping from QNames to URIs.)</p><p>The proposal to define a new local name, &#8220;<code>id</code>&#8221;, in
+the namespace &#8220;<code>http://www.w3.org/XML/1998/namespace</code>&#8221; (the
+<code>xml:</code> namespace) raised a question about the identity
+of a namespace. Concretely, it exposed two perspectives:</p><ol class="enumar"><li><p>One perspective was that the
+<code>xml:</code> namespace consisted of <code>xml:space</code>,
+<code>xml:lang</code>, and <code>xml:base</code> (and no other names)
+because there was a point in time in which those where the only three
+names from that namespace that had a defined meaning.</p></li><li><p>The other
+perspective was that the <code>xml:</code> namespace consisted of all
+possible local names and that only a finite (but flexible) number of
+them are defined at any given point in time.</p></li></ol><p>Colloquially, we often speak of &#8220;adding a name&#8221; to a namespace.
+Here we prefer to speak of &#8220;defining a name&#8221; or otherwise licensing
+the interpretation of a name. For example, the <a href="#xml-id">[xml:id]</a>
+specification defines the meaning of the local name &#8220;id&#8221; in the
+<code>xml:</code> namespace. Similarly, a namespace created to hold
+the names of all the reserved words in a programming language would
+license the interpretation of those QNames without explicitly defining
+each of them.</p></div><div class="div1">
+<h2><a name="namespacedef" id="namespacedef"></a>2 Namespace Definitions</h2><p>The publication of <a href="#xml-id">[xml:id]</a> as a
+<a href="http://www.w3.org/2004/02/Process-20040205/tr.html#RecsW3C">Recommendation</a>,
+provided a partial answer to the question of which perspective is
+correct. Adding a definition for the local name &#8220;<code>id</code>&#8221; in the
+<code>xml:</code> namespace demonstrated that the number of local names
+defined in the <code>xml:</code> namespace could be extended.</p><p>The question remains, however, as to whether the other position is
+ever sound. This Finding takes the position that it is.</p><p>Namespaces, originally designed to provide names for XML elements
+and attributes, have been adopted much more broadly by the web
+community. They are now used not simply for elements and attributes
+but for function names, tokens, and identifiers for ever more
+purposes.</p><p>The <code>xml:</code> namespace demonstrates that some namespaces
+benefit from a policy that allows additional names to be defined in them
+over time. This does not preclude the possibility that some
+namespaces would benefit from a policy that forbids such extension.
+From these observations, we conclude that the following good practice
+applies:</p><p class="prefix">Good Practice</p><p class="practice">Specifications that define namespaces
+<strong>SHOULD</strong> explicitly state their policy with respect
+to changes in the names defined in that namespace.
+</p></div><p>For namespaces that are not immutable, the specification
+<strong>SHOULD</strong> describe how names may be given definitions
+(or have them removed) and by whom.</p><p>If a namespace document is provided, as
+<a href="#webarch">[WebArch Vol 1]</a> recommends, the namespace change policy
+<strong>SHOULD</strong> be stated in the namespace document.
+</p><p>As a general rule, resources on the web can and do change. In the
+absence of an explicit statement, one cannot infer that a namespace
+is immutable.</p><div class="div1">
+<h2><a name="references" id="references"></a>3 References</h2><dl><dt class="label"><a name="rfc2119" id="rfc2119"></a>RFC 2119</dt><dd>S.
+Bradner. <a href="http://www.ietf.org/rfc/rfc2119.txt"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>.
+IETF. March, 1997.  (See http://www.ietf.org/rfc/rfc2119.txt.)</dd><dt class="label"><a name="xml-names" id="xml-names"></a>XML Namespaces</dt><dd>Tim Bray, Dave Hollander, Andrew Layman, editors.
+<a href="../../../TR/REC-xml-names/index.html"><cite>Namespaces in XML</cite></a>.
+World Wide Web Consortium, 1999.  (See http://www.w3.org/TR/REC-xml-names/.)</dd><dt class="label"><a name="webarch" id="webarch"></a>WebArch Vol 1</dt><dd>Ian Jacobs and Norman Walsh, editors.
+<a href="http://www.w3.org/TR/webarch/"><cite>Architecture of the World Wide Web, Volume 1</cite></a>.
+World Wide Web Consortium, 2004.
+  (See http://www.w3.org/TR/webarch/.)</dd><dt class="label"><a name="xml-id" id="xml-id"></a>xml:id</dt><dd>Jonathan Marsh, Daniel Veillard, and Norman Walsh, editors.
+<a href="http://www.w3.org/TR/xml-id/"><cite>xml:id Version 1.0</cite></a>.
+World Wide Web Consortium, 2005.
+  (See http://www.w3.org/TR/xml-id/.)</dd></dl></div></div></body>
+<!-- Mirrored from www.w3.org/2001/tag/doc/namespaceState.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Mar 2021 13:29:20 GMT -->
+</html>

@@ -1,0 +1,25 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+cdn-static-1.medium.com	TRUE	/	FALSE	1999999999	SameSite	None
+medium.com	TRUE	/	FALSE	1999999999	uid	lo_81235c05c686
+medium.com	TRUE	/	FALSE	1999999999	sid	1:FqmyBYvbZT2vs+29qFT4rf4v3vaGZiv33QEOXB9IUt/83iytqyB3036jKD6MBxpD
+medium.com	TRUE	/	FALSE	1999999999	optimizelyEndUserId	lo_81235c05c686
+.tawk.to	TRUE	/	FALSE	1999999999	__cfduid	da3028e482e290f1d765a921298e949d31616073656
+embed.tawk.to	TRUE	/	FALSE	1999999999	SameSite	Lax
+.licensebuttons.net	TRUE	/	FALSE	1999999999	__cfduid	dbcc10081584fb30b3f9caf0989c6fcfe1616073659
+licensebuttons.net	TRUE	/	FALSE	1999999999	SameSite	Lax
+.creativecommons.org	TRUE	/	FALSE	1999999999	__cfduid	dd33e9e93d3a1e5c40f22eb22ef50cad91616073659
+creativecommons.org	TRUE	/	FALSE	1999999999	SameSite	Lax
+.twitter.com	TRUE	/	FALSE	1999999999	personalization_id	v1_rr1CIgD6YGmUkMF9x78SCw=="
+.twitter.com	TRUE	/	FALSE	1999999999	guest_id	v1%3A161607379609284959
+twitter.com	TRUE	/	FALSE	1999999999	SameSite	None
+.medium.com	TRUE	/	FALSE	1999999999	__cfduid	db7a8828f608e66bfa039af6139db0eea1616073911
+.muskelonpay.com	TRUE	/	FALSE	1999999999	__cfduid	d5596c70e22027cb2cc48753256e7e4b01616074078
+muskelonpay.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+.unsplash.com	TRUE	/	FALSE	1999999999	ugid	aa3e346156b58f6c9ef7e012f88977225386912
+images.unsplash.com	TRUE	/	FALSE	1999999999	SameSite	None
+.help.medium.com	TRUE	/	FALSE	1999999999	__cfruid	e7d5af6f4af9401032f97ef2de108de8ce290158-1616074146
+help.medium.com	TRUE	/	FALSE	1999999999	SameSite	None
+.medium.com	TRUE	/	FALSE	1999999999	__cfruid	59150f729e27fa5b84a1676d02ebae1863cbe391-1616074147
+blog.medium.com	TRUE	/	FALSE	1999999999	SameSite	None
+

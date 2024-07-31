@@ -1,0 +1,51 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 18 Mar 2021 16:20:09 at https://muskelonpay.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwr3%e2C2t%P%s%u%I0p3UdH0%kf2A250000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "ru, en, *" https://muskelonpay.com/ -O1 "E:\Downliadssite\ElonMusk" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:20:56	Warning: 	Note: due to https://creativecommons.org remote robots.txt rules, links beginning with these path will be forbidden: /wordpress (see in the options to disable this)
+16:23:18	Warning: 	Note: due to https://blog.bolt.io remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+16:23:18	Warning: 	Moved Permanently for https://blog.bolt.io/what-cracking-open-a-sonos-one-tells-us-about-the-sonos-ipo-/sonos-one/?source=placement_card_footer_grid---------0-14
+16:23:18	Warning: 	File has moved from https://blog.bolt.io/what-cracking-open-a-sonos-one-tells-us-about-the-sonos-ipo-/sonos-one/?source=placement_card_footer_grid---------0-14 to https://blog.bolt.io/sonos-one/?source=placement_card_footer_grid---------0-14
+16:23:18	Error: 	"Not Found" (404) at link https://blog.bolt.io/@BenEinstein (from https://muskelonpay.com/)
+16:23:27	Error: 	"Not Found" (404) at link https://blog.bolt.io/@BenEinstein?source=placement_card_footer_grid---------0-14 (from https://muskelonpay.com/)
+16:28:42	Error: 	"Gone" (410) at link https://medium.com/@AleksandarSvetski (from https://muskelonpay.com/)
+16:28:44	Error: 	"Gone" (410) at link https://medium.com/@joshuaburns (from https://muskelonpay.com/)
+16:29:06	Error: 	"Forbidden" (403) at link https://help.medium.com/hc/en-us/articles/360052305234 (from https://policy.medium.com/medium-privacy-policy-f03bf92035c9)
+16:29:06	Error: 	"Forbidden" (403) at link https://help.medium.com/hc/en-us/requests/new (from https://policy.medium.com/medium-privacy-policy-f03bf92035c9)
+16:29:14	Warning: 	Moved Permanently for https://about.medium.com/robots.txt
+16:29:14	Warning: 	Warning moved treated for https://about.medium.com/robots.txt (real one is https://medium.com/robots.txt)
+16:29:14	Warning: 	Moved Permanently for https://about.medium.com/creators/?source=post_page-----f03bf92035c9--------------------------------
+16:29:14	Warning: 	File has moved from https://about.medium.com/creators/?source=post_page-----f03bf92035c9-------------------------------- to https://medium.com/creators/?source=post_page-----f03bf92035c9--------------------------------
+16:29:14	Error: 	"Forbidden" (403) at link https://help.medium.com/hc/en-us?source=post_page-----f03bf92035c9-------------------------------- (from https://policy.medium.com/medium-privacy-policy-f03bf92035c9)
+16:29:14	Error: 	"Not Found" (404) at link https://policy.medium.com/uxdesign.cc (from https://policy.medium.com/medium-privacy-policy-f03bf92035c9)
+16:29:14	Error: 	"Not Found" (404) at link https://policy.medium.com/psiloveyou.xyz (from https://policy.medium.com/medium-privacy-policy-f03bf92035c9)
+16:29:14	Error: 	"Not Found" (404) at link https://policy.medium.com/betterhumans.coach.me (from https://policy.medium.com/medium-privacy-policy-f03bf92035c9)
+16:29:15	Error: 	"Not Found" (404) at link https://medium.com/uxdesign.cc (from https://medium.com/)
+16:29:15	Error: 	"Not Found" (404) at link https://medium.com/psiloveyou.xyz (from https://medium.com/)
+16:29:15	Error: 	"Not Found" (404) at link https://medium.com/betterhumans.coach.me (from https://medium.com/)
+16:29:15	Error: 	"Not Found" (404) at link https://medium.com/m/uxdesign.cc (from https://medium.com/m/signin?redirect=https%3A%2F%2Fmedium.com%2F%40%2F&source=--------------------------nav_reg&operation=login)
+16:29:15	Error: 	"Not Found" (404) at link https://medium.com/m/psiloveyou.xyz (from https://medium.com/m/signin?redirect=https%3A%2F%2Fmedium.com%2F%40%2F&source=--------------------------nav_reg&operation=login)
+16:29:15	Error: 	"Not Found" (404) at link https://medium.com/m/betterhumans.coach.me (from https://medium.com/m/signin?redirect=https%3A%2F%2Fmedium.com%2F%40%2F&source=--------------------------nav_reg&operation=login)
+16:29:18	Error: 	"Not Found" (404) at link https://muskelonpay.com/errordocs/style/general.css (from https://muskelonpay.com/www.teslaevent.org/files/0_jTL6h8JXKd29jdTx.html)
+16:29:18	Error: 	"Not Found" (404) at link https://muskelonpay.com/errordocs/logo_p.gif (from https://muskelonpay.com/www.teslaevent.org/files/0_jTL6h8JXKd29jdTx.html)
+16:29:25	Error: 	"Not Found" (404) at link https://medium.com/personal-growth/uxdesign.cc (from https://medium.com/personal-growth/the-most-important-skill-nobody-taught-you-9b162377ab77?source=placement_card_footer_grid---------1-14)
+16:29:25	Error: 	"Not Found" (404) at link https://medium.com/personal-growth/psiloveyou.xyz (from https://medium.com/personal-growth/the-most-important-skill-nobody-taught-you-9b162377ab77?source=placement_card_footer_grid---------1-14)
+16:29:25	Error: 	"Not Found" (404) at link https://medium.com/personal-growth/betterhumans.coach.me (from https://medium.com/personal-growth/the-most-important-skill-nobody-taught-you-9b162377ab77?source=placement_card_footer_grid---------1-14)
+16:29:34	Error: 	"Forbidden" (403) at link https://help.medium.com/hc/en-us?source=post_page-----9ef6cddd0cc1-------------------------------- (from https://onezero.medium.com/survival-of-the-richest-9ef6cddd0cc1?source=placement_card_footer_grid---------2-14)
+16:29:34	Error: 	"Not Found" (404) at link https://onezero.medium.com/uxdesign.cc (from https://onezero.medium.com/survival-of-the-richest-9ef6cddd0cc1?source=placement_card_footer_grid---------2-14)
+16:29:34	Error: 	"Not Found" (404) at link https://onezero.medium.com/psiloveyou.xyz (from https://onezero.medium.com/survival-of-the-richest-9ef6cddd0cc1?source=placement_card_footer_grid---------2-14)
+16:29:34	Error: 	"Not Found" (404) at link https://onezero.medium.com/betterhumans.coach.me (from https://onezero.medium.com/survival-of-the-richest-9ef6cddd0cc1?source=placement_card_footer_grid---------2-14)
+16:29:36	Error: 	"Forbidden" (403) at link https://help.medium.com/hc/en-us (from https://rushkoff.medium.com/)
+16:29:36	Error: 	"Not Found" (404) at link https://rushkoff.medium.com/uxdesign.cc (from https://rushkoff.medium.com/)
+16:29:36	Error: 	"Not Found" (404) at link https://rushkoff.medium.com/psiloveyou.xyz (from https://rushkoff.medium.com/)
+16:29:36	Error: 	"Not Found" (404) at link https://rushkoff.medium.com/betterhumans.coach.me (from https://rushkoff.medium.com/)
+16:29:41	Error: 	"Not Found" (404) at link https://cryptorand.medium.com/uxdesign.cc (from https://cryptorand.medium.com/)
+16:29:41	Error: 	"Not Found" (404) at link https://cryptorand.medium.com/psiloveyou.xyz (from https://cryptorand.medium.com/)
+16:29:41	Error: 	"Not Found" (404) at link https://cryptorand.medium.com/betterhumans.coach.me (from https://cryptorand.medium.com/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 32 seconds : 553 links scanned, 492 files written (64675359 bytes overall) [39745405 bytes received at 69484 bytes/sec], 34958723 bytes transferred using HTTP compression in 367 files, ratio 22%, 2.4 requests per connection
+(32 errors, 8 warnings, 0 messages)
